@@ -11,3 +11,6 @@ RUN pacman -Sy && pacman -S --noconfirm \
     vim
 RUN rm -rf /var/cache/pacman/pkg/*
 RUN echo 'add-auto-load-safe-path /usr/lib/go/src/runtime/runtime-gdb.py' > /root/.gdbinit
+RUN mkdir -p /ws 
+ENV GOPATH /ws
+CMD ["/bin/bash"]
