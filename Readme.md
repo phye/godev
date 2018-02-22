@@ -7,10 +7,10 @@ Explanation
 ===========
 - Choosing ArchLinux is simply because I like the lightweighted distro with the (almost) most efficient package manager. 
 
-
 Hint
 ====
 To run gdb properly with this image, please append privilege param to `docker run`:
-``sh
+
+```sh
 docker run --privileged -it godev
 ```
