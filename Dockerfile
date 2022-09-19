@@ -1,4 +1,4 @@
-FROM base/archlinux
+FROM archlinux:base-devel
 LABEL description="This docker image is used to setup go dev environment based on ArchLinux"
 LABEL maintainer="phye8080@gmail.com"
 
